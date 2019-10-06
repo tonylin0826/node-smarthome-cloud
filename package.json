@@ -1,0 +1,24 @@
+{
+  "name": "smarthome-cloud",
+  "version": "1.0.0",
+  "description": "Smart Home Cloud implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "NODE_ENV=development node src/index.js"
+  },
+  "keywords": [
+    "smart-home",
+    "google-assistant",
+    "alexa"
+  ],
+  "author": "Tony Lin",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "aedes": "^0.37.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0"
+  }
+}
